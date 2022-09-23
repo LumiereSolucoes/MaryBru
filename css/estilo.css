@@ -1,0 +1,50 @@
+﻿body {
+    background-color: #ffc5d5;
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 1000px;
+}
+
+.logo {
+    max-height: 400px;
+    margin-top: 20px;
+}
+
+.menu {
+    margin-top: 20px;
+    height: 60px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 3px solid;
+    border-color: #9169fa;
+    background-color: #ffffff;
+    margin-right: 10px;
+}
+
+a:link, a:visited {
+    color: #9169fa;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu a:link, .menu a:visited {
+    color: #9169fa;
+}
+
+.menu a:hover {
+    color: #ffc5d5;
+    background: #9169fa;
+    text-decoration: none;
+}
+
+
+
+
+
