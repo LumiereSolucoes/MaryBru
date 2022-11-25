@@ -1,48 +1,94 @@
 ﻿body {
-    background-color: #ffc5d5;
+    margin: 0;
+   background-color: #968da4;
 }
 
-.container {
-    background-color: #ffffff;
-    max-width: 1000px;
+    .container {
+    margin-top: 150px;
+    max-width: 1200px;
 }
 
-.logo {
-    max-height: 400px;
-    margin-top: 20px;
-}
+/*menu*/
 
-.menu {
-    margin-top: 20px;
-    height: 60px;
-}
-
-.menu a {
+#links a {
     text-decoration: none;
     padding: 8px 16px;
-    border: 3px solid;
-    border-color: #9169fa;
-    background-color: #ffffff;
+    background-color: #fdacf1; /*cor do fundo*/
     margin-right: 10px;
+    font-family: "Sofia", sans-serif;
+    font-size: 18px;
 }
 
 a:link, a:visited {
-    color: #9169fa;
+    color: #d735bf;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.menu a:link, .menu a:visited {
-    color: #9169fa;
+#links a:link, a:visited {
+    color: #d735bf; /*cor da letra*/
 }
 
-.menu a:hover {
-    color: #ffc5d5;
-    background: #9169fa;
+#links a:hover {
+    color: #fdacf1;/*cor da letra*/ 
+    background: #FF1493;/*cor do fundo*/ 
     text-decoration: none;
 }
+
+#mb {
+    color: #fdacf1;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 30px;
+}
+
+#icone {
+    background: none;
+}
+
+/*rodapé*/
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #C71585;
+    color: #fdacf1;
+    margin-top: 80px;
+}
+
+/*fonte da letra MaryBru*/
+
+#confeitaria {
+    font-family: "Dancing Script", sans-serif;
+    font-size: 25px;
+}
+
+/*novos produtos*/
+
+.produtos {
+    font-family: "Dancing Script", sans-serif;
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+/*cor do texto*/
+h1 {
+    color: white;
+}
+ .postagem2 {
+    background-color: white;
+ }
+
+ #contato {
+    margin-left: 150px;
+ }
+
+
+
+
+
+
 
 
 
