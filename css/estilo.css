@@ -1,50 +1,48 @@
 ﻿body {
-    margin: 0;
+   margin: 0;
    background-color: #968da4;
 }
 
-    .container {
-    margin-top: 150px;
-    max-width: 1200px;
+.container {
+   margin-top: 150px;
+   max-width: 1200px;
 }
 
 /*menu*/
 
 #links a {
-    text-decoration: none;
-    padding: 8px 16px;
-    background-color: #fdacf1; /*cor do fundo*/
-    margin-right: 10px;
-    font-family: "Sofia", sans-serif;
-    font-size: 18px;
+   text-decoration: none;
+   padding: 6px 16px;
+   background-color: #fdacf1; /*cor do fundo*/
+   margin-right: 10px;
+   font-family: "Sofia", sans-serif;
+   font-size: 18px;
 }
 
 a:link, a:visited {
-    color: #d735bf;
+   color: #d735bf;
 }
 
 a:hover {
-    text-decoration: underline;
+   text-decoration: underline;
 }
 
 #links a:link, a:visited {
-    color: #d735bf; /*cor da letra*/
+   color: #d735bf; /*cor da letra*/
 }
 
 #links a:hover {
-    color: #fdacf1;/*cor da letra*/ 
-    background: #FF1493;/*cor do fundo*/ 
-    text-decoration: none;
+   color: #fdacf1;/*cor da letra*/ 
+   background: #FF1493;/*cor do fundo*/ 
+   text-decoration: none;
 }
 
 #mb {
     color: #fdacf1;
     font-family: "Dancing Script", sans-serif;
     font-size: 30px;
-}
-
-#icone {
-    background: none;
+    position: center;
+    text-decoration: none;
 }
 
 /*rodapé*/
@@ -80,17 +78,62 @@ h1 {
     background-color: white;
  }
 
- #contato {
-    margin-left: 150px;
- }
+#contato {
+    margin-left: 100px;
+    font-family: "Sofia", sans-serif;
+    margin-top: 90px;
+    width: 350px;
+}
+
+#foto {
+    margin-left: 90px;
+    margin-top: 190px;
+    width: 600px
+}
+
+#Enviar {
+    background-color: #C71585;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#Enviar:hover {
+    opacity: 0.8;
+}
 
 
+input:hover {
+    border: 3px solid #fdacf1;
+}
 
+input:focus{
+    border: 3px solid pink;
+}
 
+textarea:hover {
+    border: 3px solid #fdacf1;
+}
 
+.form-control{
+    border-color: pink;
+}
 
+@media screen and (max-width: 600px) {
+   #foto{
+        margin-right: 90px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
 
-
+   #contato{
+       width: 400px;
+   }
 
 
 
