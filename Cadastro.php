@@ -1,10 +1,11 @@
 <?php
 
+    require 'sanitizeRequest.php';
+
     $email           =  $_REQUEST['email'];
     $senha           =  $_REQUEST['senha'];
     $nome            =  $_REQUEST['nome'];
     $telefone        =  $_REQUEST['telefone'];
-    var_dump($nome);
 
     function enviarEmail( $to, $from, $replyTo, $subject, $message ) {
         $headers =  'From: '       .$from .    "\r\n" .
