@@ -11,16 +11,16 @@
 /*menu*/
 
 #links a {
-   text-decoration: none;
-   padding: 6px 16px;
-   background-color: #fdacf1; /*cor do fundo*/
-   margin-right: 10px;
-   font-family: "Sofia", sans-serif;
-   font-size: 18px;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #fdacf1; /*cor do fundo*/
+    margin-right: 10px;
+    font-family: "Sofia", sans-serif;
+    font-size: 18px;
 }
 
 a:link, a:visited {
-   color: #d735bf;
+    color: #d735bf;
 }
 
 a:hover {
@@ -28,15 +28,16 @@ a:hover {
 }
 
 #links a:link, a:visited {
-   color: #d735bf; /*cor da letra*/
+    color: #d735bf; /*cor da letra*/
 }
 
 #links a:hover {
-   color: #fdacf1;/*cor da letra*/ 
-   background: #FF1493;/*cor do fundo*/ 
-   text-decoration: none;
+    color: #fdacf1; /*cor da letra*/
+    background: #FF1493; /*cor do fundo*/
+    text-decoration: none;
 }
 
+/*marybru menu*/
 #mb {
     color: #fdacf1;
     font-family: "Dancing Script", sans-serif;
@@ -74,66 +75,200 @@ footer {
 h1 {
     color: white;
 }
- .postagem2 {
-    background-color: white;
- }
 
-#contato {
-    margin-left: 100px;
-    font-family: "Sofia", sans-serif;
-    margin-top: 90px;
-    width: 350px;
+#novidade{
+    margin-left: 70px;
 }
 
-#foto {
-    margin-left: 90px;
-    margin-top: 190px;
-    width: 600px
+#video{
+    margin-left: 50px;
+}
+@media screen and (min-width: 375px) and (max-width: 1075px) {
+    #video h1 {
+        margin-top: 60px;
+    }
 }
 
-#Enviar {
-    background-color: #C71585;
-    color: white;
-    padding: 10px 15px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 70px;
-    border-radius: 5px;
-    margin-bottom: 30px;
+@media screen and (min-width: 375px) {
+    #novidade {
+        margin-right: 65px;
+    }
+    #video {
+        right: 25px; 
+    }
 }
 
-#Enviar:hover {
-    opacity: 0.8;
-}
-
-
-input:hover {
-    border: 3px solid #fdacf1;
-}
-
-input:focus{
-    border: 3px solid pink;
-}
-
-textarea:hover {
-    border: 3px solid #fdacf1;
-}
-
-.form-control{
-    border-color: pink;
-}
-
-@media screen and (max-width: 600px) {
-   #foto{
-        margin-right: 90px;
-        margin-bottom: 50px;
-        margin-top: 50px;
+    /*pág. contato*/
+    .postagem2 {
+        background-color: white; /*cor de fundo*/
     }
 
-   #contato{
-       width: 400px;
-   }
+    /*conf. form. pág. contato*/
+    #contato {
+        margin-left: 100px;
+        font-family: "Sofia", sans-serif;
+        margin-top: 90px;
+        width: 350px;
+    }
+
+    /*conf. imagem pág. contato*/
+    #foto {
+        margin-left: 90px;
+        margin-top: 190px;
+        width: 800px
+    }
+
+    /*conf. botão pág. contato*/
+    #Enviar {
+        background-color: #C71585;
+        color: white;
+        padding: 10px 15px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 70px;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+
+        #Enviar:hover {
+            opacity: 0.8;
+        }
+
+    input:hover {
+        border: 3px solid #fdacf1;
+    }
+
+    input:focus {
+        border: 3px solid pink;
+    }
+
+    textarea:hover {
+        border: 3px solid #fdacf1;
+    }
+
+    .form-control {
+        border-color: pink;
+    }
+
+    /*ajuste da imagem e form para outros tamanhos de tela*/
+    @media screen and (min-width: 375px) {
+        #foto {
+            margin-bottom: 50px;
+            margin-top: 50px;
+            width: 600px;
+        }
+
+        #contato {
+            width: 260px;
+            margin-left: 60px;
+        }
+
+        #mb {
+            width: 90px;
+            margin-right: 110px;
+        }
+
+        button {
+            margin-top: 3px;
+        }
+    }
+
+    /*layout login e cadastro*/
+
+    .cadastro {
+        background-color: white;
+        border-radius: 3px;
+    }
+
+        .cadastro a {
+            color: #C71585;
+        }
+
+    .login {
+        background-color: white;
+        border-radius: 3px;
+    }
+
+        .login a {
+            color: #C71585;
+        }
+
+    h2 {
+        margin-left: 60px;
+    }
+
+    input[type=text], input[type=password] {
+        width: 300px;
+        padding: 5px 13px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        border-radius: 3px;
+        border-color: pink;
+    }
+
+        input[type=text]:hover, input[type=password]:hover {
+            border: 3px solid #fdacf1;
+        }
+
+    #cadastrobtn {
+        background-color: #C71585;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+        #cadastrobtn:hover {
+            opacity: 0.8;
+        }
+
+    .cancelbtn {
+        background-color: #C71585;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+        .cancelbtn:hover {
+            opacity: 0.8;
+        }
+
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+    }
+
+    img.avatar {
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    span.psw {
+        float: right;
+        padding-top: 16px;
+    }
+
+    /* Alteração dos estilos do botão span e cancel em telas extra pequenas */
+    @media screen and (max-width: 300px) {
+        span.psw {
+            display: block;
+            float: none;
+        }
+
+        .cancelbtn {
+            width: 100%;
+        }
+    }
+    
 
 
+    
 
