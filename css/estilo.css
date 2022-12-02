@@ -46,6 +46,18 @@ a:hover {
     text-decoration: none;
 }
 
+/*resposividade botão para telas pequenas*/
+@media screen and (min-width: 300px) and (max-width: 991px) {
+    #mb {
+        width: 90px;
+        margin-right: 105px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
+
 /*rodapé*/
 
 footer {
@@ -83,190 +95,728 @@ h1 {
 #video{
     margin-left: 50px;
 }
-@media screen and (min-width: 375px) and (max-width: 1075px) {
+
+@media screen and (min-width: 300px) and (max-width: 1075px) {
     #video h1 {
         margin-top: 60px;
     }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 300px) {
     #novidade {
-        margin-right: 65px;
+        margin-right: 60px;
     }
     #video {
         right: 25px; 
     }
 }
 
-    /*pág. contato*/
-    .postagem2 {
-        background-color: white; /*cor de fundo*/
-    }
+/*pág. contato*/
+.postagem2 {
+    background-color: white; /*cor de fundo*/
+}
 
-    /*conf. form. pág. contato*/
-    #contato {
-        margin-left: 100px;
+/*conf. form. pág. contato*/
+#contato {
+    margin-left: 100px;
+    margin-top: 90px;
+    width: 340px;
+}
+
+    #contato h1 {
         font-family: "Sofia", sans-serif;
-        margin-top: 90px;
-        width: 350px;
     }
 
-    /*conf. imagem pág. contato*/
+/*conf. imagem pág. contato*/
+#foto {
+    margin-left: 30px;
+    margin-top: 190px;
+    width: 500px
+}
+
+/*conf. botão pág. contato*/
+#Enviar {
+    background-color: #C71585;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#Enviar:hover {
+    opacity: 0.8;
+}
+
+input:hover {
+    border: 3px solid #fdacf1;
+}
+
+input:focus {
+    border: 3px solid pink;
+}
+
+textarea:hover {
+    border: 3px solid #fdacf1;
+}
+
+.form-control {
+    border-color: pink;
+}
+
+.postagem2 h3 {
+    font-family: "Sofia", sans-serif;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.postagem2 hr{
+    margin-left: 50px;
+    width: 1100px;
+    background-color: #C71585;
+}
+
+.postagem2 iframe{
+    margin-bottom: 50px;
+}
+
+/*ajuste da imagem e form para outros tamanhos de tela*/
+@media screen and (min-width: 300px) and (max-width: 380px) {
     #foto {
-        margin-left: 90px;
-        margin-top: 190px;
-        width: 800px
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-right: 30px;
     }
 
-    /*conf. botão pág. contato*/
-    #Enviar {
-        background-color: #C71585;
-        color: white;
-        padding: 10px 15px;
-        margin: 8px 0;
-        border: none;
-        cursor: pointer;
-        width: 70px;
-        border-radius: 5px;
+    .postagem2 hr{
+        margin-right: 40px;
+    }
+
+    #contato {
+        width: 260px;
+        margin-left: 35px;
+    }
+
+    .postagem2 iframe{
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 381px) and (max-width: 450px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-right: 30px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 5px;
         margin-bottom: 30px;
     }
 
-        #Enviar:hover {
-            opacity: 0.8;
-        }
+    .postagem2 iframe {
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
 
-    input:hover {
-        border: 3px solid #fdacf1;
+@media screen and (min-width: 451px) and (max-width: 490px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-right: 30px;
     }
 
-    input:focus {
-        border: 3px solid pink;
+    .postagem2 hr {
+        margin-right: 40px;
     }
 
-    textarea:hover {
-        border: 3px solid #fdacf1;
+    #contato {
+        margin-left: 45px;
+        margin-bottom: 30px;
     }
 
-    .form-control {
-        border-color: pink;
+    .postagem2 iframe {
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 491px) and (max-width: 530px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-right: 30px;
     }
 
-    /*ajuste da imagem e form para outros tamanhos de tela*/
-    @media screen and (min-width: 375px) {
-        #foto {
-            margin-bottom: 50px;
-            margin-top: 50px;
-            width: 600px;
-        }
-
-        #contato {
-            width: 260px;
-            margin-left: 60px;
-        }
-
-        #mb {
-            width: 90px;
-            margin-right: 110px;
-        }
-
-        button {
-            margin-top: 3px;
-        }
+    .postagem2 hr {
+        margin-right: 40px;
     }
 
-    /*layout login e cadastro*/
-
-    .cadastro {
-        background-color: white;
-        border-radius: 3px;
+    #contato {
+        margin-left: 60px;
+        margin-bottom: 30px;
     }
 
-        .cadastro a {
-            color: #C71585;
-        }
+    .postagem2 iframe {
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
 
-    .login {
-        background-color: white;
-        border-radius: 3px;
+@media screen and (min-width: 531px) and (max-width: 560px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-right: 30px;
     }
 
-        .login a {
-            color: #C71585;
-        }
+    .postagem2 hr {
+        margin-right: 40px;
+    }
 
-    h2 {
+    #contato {
+        margin-left: 80px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 561px) and (max-width: 590px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-right: 30px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 95px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 561px) and (max-width: 590px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-right: 30px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 95px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 591px) and (max-width: 630px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-right: 30px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 110px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 631px) and (max-width: 670px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-right: 30px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 130px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 671px) and (max-width: 700px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-right: 30px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 150px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 730px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-left: 50px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 170px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 731px) and (max-width: 760px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
         margin-left: 60px;
     }
 
-    input[type=text], input[type=password] {
-        width: 300px;
-        padding: 5px 13px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        box-sizing: border-box;
-        border-radius: 3px;
-        border-color: pink;
+    .postagem2 hr {
+        margin-right: 40px;
     }
 
-        input[type=text]:hover, input[type=password]:hover {
-            border: 3px solid #fdacf1;
-        }
-
-    #cadastrobtn {
-        background-color: #C71585;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
+    #contato {
+        margin-left: 180px;
+        margin-bottom: 30px;
     }
 
-        #cadastrobtn:hover {
-            opacity: 0.8;
-        }
+    .postagem2 iframe {
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 761px) and (max-width: 790px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-left: 80px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 190px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 791px) and (max-width: 820px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-left: 90px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 210px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 821px) and (max-width: 850px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-left: 113px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 220px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 310px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 851px) and (max-width: 880px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-left: 125px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 230px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 310px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 881px) and (max-width: 910px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-left: 145px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 250px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 330px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 911px) and (max-width: 940px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-left: 160px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 270px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 350px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 941px) and (max-width: 970px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-left: 175px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 290px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 360px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 971px) and (max-width: 1000px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-left: 190px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 295px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 380px;
+        margin-left: 0px;
+    }
+}
+
+
+@media screen and (min-width: 1001px) and (max-width: 1074px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 600px;
+        margin-left: 200px;
+    }
+
+    .postagem2 hr {
+        margin-right: 40px;
+    }
+
+    #contato {
+        margin-left: 310px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 400px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 1075px) {
+    #foto {
+        margin-bottom: 50px;
+        margin-top: 210px;
+        width: 450px;
+    }
+
+    #contato {
+        left: 50px;
+        margin-bottom: 30px;
+    }
+
+    .postagem2 iframe {
+        width: 100%;
+        height: 450px;
+        margin-left: 0px;
+    }
+} 
+
+/*layout login e cadastro*/
+
+.cadastro {
+    background-color: white;
+    border-radius: 3px;
+}
+
+.cadastro a {
+    color: #C71585;
+}
+
+.login {
+    background-color: white;
+    border-radius: 3px;
+}
+
+.login a {
+    color: #C71585;
+}
+
+h2 {
+    margin-left: 60px;
+}
+
+.login input[type=text], input[type=password] {
+     width: 300px;
+     padding: 5px 13px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     box-sizing: border-box;
+     border-radius: 3px;
+     border-color: pink;
+}
+
+.login input[type=text]:hover, input[type=password]:hover {
+     border: 3px solid #fdacf1;
+ }
+
+
+.cadastro input[type=text], input[type=password] {
+    width: 300px;
+    padding: 5px 13px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-color: pink;
+}
+
+.cadastro input[type=text]:hover, input[type=password]:hover {
+    border: 3px solid #fdacf1;
+}
+
+#cadastrobtn {
+    background-color: #C71585;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#cadastrobtn:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    background-color: #C71585;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cancelbtn:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 300px;
+    border-radius: 50%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Alteração dos estilos do botão span e cancel em telas extra pequenas */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
 
     .cancelbtn {
-        background-color: #C71585;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
+        width: 100%;
     }
-
-        .cancelbtn:hover {
-            opacity: 0.8;
-        }
-
-    .imgcontainer {
-        text-align: center;
-        margin: 24px 0 12px 0;
-    }
-
-    img.avatar {
-        width: 300px;
-        border-radius: 50%;
-    }
-
-    span.psw {
-        float: right;
-        padding-top: 16px;
-    }
-
-    /* Alteração dos estilos do botão span e cancel em telas extra pequenas */
-    @media screen and (max-width: 300px) {
-        span.psw {
-            display: block;
-            float: none;
-        }
-
-        .cancelbtn {
-            width: 100%;
-        }
-    }
+}
     
 
 
