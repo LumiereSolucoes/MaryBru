@@ -123,9 +123,9 @@ h1 {
     width: 340px;
 }
 
-    #contato h1 {
-        font-family: "Sofia", sans-serif;
-    }
+#contato h1 {
+    font-family: "Sofia", sans-serif;
+}
 
 /*conf. imagem pág. contato*/
 #foto {
@@ -708,7 +708,7 @@ textarea:hover {
     }
 } 
 
-/*layout login e cadastro*/
+/*layout login, cadastro e confirmação*/
 
 .cadastro {
     background-color: white;
@@ -725,6 +725,15 @@ textarea:hover {
 }
 
 .login a {
+    color: #C71585;
+}
+
+.confirmacao {
+    background-color: white;
+    border-radius: 3px;
+}
+
+.confirmacao a {
     color: #C71585;
 }
 
@@ -804,6 +813,35 @@ img.avatar {
 span.psw {
     float: right;
     padding-top: 16px;
+}
+
+.confirmacao input[type=text], input[type=password] {
+    width: 300px;
+    padding: 5px 13px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-color: pink;
+}
+
+.confirmacao input[type=text]:hover, input[type=password]:hover {
+    border: 3px solid #fdacf1;
+}
+
+#confirmacaobtn {
+    background-color: #C71585;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#confirmacaobtn:hover {
+    opacity: 0.8;
 }
 
 /* Alteração dos estilos do botão span e cancel em telas extra pequenas */
