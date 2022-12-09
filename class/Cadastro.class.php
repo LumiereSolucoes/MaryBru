@@ -3,32 +3,54 @@
 /*cadastro*/
 
 class Usuario {
+    private $idUsuario;
     private $email;
     private $senha;
     private $nome;
     private $telefone;
 
-    function __construct($email, $senha, $nome, $telefone) {
+    function __construct($idUsuario, $email, $senha, $nome, $telefone) {
+        $this->setIdUsuario          ($idUsuario);
         $this->setEmail          ($email);
         $this->setSenha          ($senha);
         $this->setNome           ($nome);
         $this->setTelefone       ($telefone);
-        
-   
     }
 
     public function insert() {
         include_once "DBConnection.class.php";
         $connection = new DBConnection();
-        $sqlCommand = " INSERT INTO usuarios (email, senha, nome, telefone) VALUES ('".
+        $sqlCommand = " INSERT INTO usuarios (idUsuario, email, senha, nome, telefone) VALUES ('".
+            $this->getIdUsuario()."','".
             $this->getEmail()."','".
             $this->getSenha()."','".
             $this->getNome()."','".
             $this->getTelefone()."')";
             echo $sqlCommand;
             $connection->query($sqlCommand);
-         
     }
+
+     public function listAll() {
+        require_once 'DBConnection.class.php';
+        $connection = new DBConnection();
+        $sqlCommand = "SELECT idUsuario, email, nome, telefone FROM hostdeprojetos_maryebru.usuarios;";
+        $rSetUsuario = $connection->query($sqlCommand);
+        
+        while ($linhaUsuario = mysqli_fetch_assoc($rSetUsuario)) {
+            echo "<hr>".
+                "Id: ".$linhaUsuario['idUsuario']." <br> ".
+                "Email: ".$linhaUsuario['email']." <br> ".
+                "Nome: ".$linhaUsuario['nome']." <br> ".
+                "Telefone: ".$linhaUsuario['telefone']." <br> <a href='./delete.php?idUsuario=". $linhaUsuario['idUsuario'] . "'><button type='button' class='btn btn-danger'name='deletar' style='position: relative;'>Delete</button></a>";
+        }
+    }
+
+    public function delete(){
+            include_once './class/DBConnection.class.php';
+            $connection = new DBConnection();
+            $sqlCommand = "DELETE FROM usuarios WHERE idUsuario ='".$this->getIdUsuario()."'";
+            $rSetUsuario = $connection->query( $sqlCommand );  
+        }
 
     public function update(){
         include_once "DBConnection.class.php";

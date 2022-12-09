@@ -8,10 +8,10 @@ class DBConnection {
    private $conn = null;
   
    function __construct() {
-       $this->setHost( "localhost" );
-       $this->setUser( "root" );
-       $this->setPass( "" );
-       $this->setDbname("maryebru");
+       $this->setHost( "51.79.72.47" );
+       $this->setUser( "hostdeprojetos_lumiere" );
+       $this->setPass( "%empr3esa" );
+       $this->setDbname("hostdeprojetos_maryebru");
        $this->setConn( mysqli_connect($this->host, $this->user, $this->pass, $this->dbname) );
        // Check connection
        if (!$this->conn) {
