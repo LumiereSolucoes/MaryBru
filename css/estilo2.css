@@ -2,8 +2,9 @@
     margin-top: 20px;
 }
 
-h2 {
+#sobre {
     font-family: "Dancing Script", sans-serif;
+    margin-top: 50px;
 }
 
 .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
@@ -358,7 +359,7 @@ h2 {
     }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 464px) {
+@media only screen and (min-width: 300px) and (max-width: 376px) {
 
     .cd-horizontal-timeline.loaded {
         width: 100%;
@@ -382,7 +383,585 @@ h2 {
     }
 }
 
-@media only screen and (min-width: 465px) and (max-width: 767px){
+@media only screen and (min-width: 377px) and (max-width: 401px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 25px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+
+}
+
+@media only screen and (min-width: 402px) and (max-width: 406px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 407px) and (max-width: 411px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 416px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 417px) and (max-width: 421px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 422px) and (max-width: 426px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 431px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 432px) and (max-width: 436px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 437px) and (max-width: 441px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+
+@media only screen and (min-width: 442px) and (max-width: 446px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+
+@media only screen and (min-width: 447px) and (max-width: 451px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 452px) and (max-width: 456px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 457px) and (max-width: 461px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 462px) and (max-width: 466px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 467px) and (max-width: 471px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 472px) and (max-width: 476px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 477px) and (max-width: 481px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 482px) and (max-width: 486px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 487px) and (max-width: 491px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 492px) and (max-width: 496px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 497px) and (max-width: 501px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 502px) and (max-width: 506px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 507px) and (max-width: 509px) {
+
+    .cd-horizontal-timeline.loaded {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .cd-horizontal-timeline .timeline {
+        width: 100%;
+    }
+
+    .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cd-horizontal-timeline .events-content h4 {
+        font-size: 16px;
+    }
+
+    .cd-horizontal-timeline .events-content {
+        margin: 0;
+    }
+}
+
+
+@media only screen and (min-width: 510px) and (max-width: 767px){
 
     .cd-horizontal-timeline.loaded {
         margin: 0;

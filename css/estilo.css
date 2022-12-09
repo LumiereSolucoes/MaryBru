@@ -737,7 +737,7 @@ textarea:hover {
     color: #C71585;
 }
 
-h2 {
+#titulo {
     margin-left: 60px;
 }
 
@@ -856,7 +856,35 @@ span.psw {
     }
 }
     
+/*Botões pág. admin*/
+.adm{
+    background-color: white;
+    border-radius: 3px;
+}
 
+
+
+#abrir1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+#abrir2 {
+
+    margin: 8px 0;
+
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#abrir3 {
+    margin: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
     
 
