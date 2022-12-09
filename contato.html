@@ -40,7 +40,7 @@
                     <a class="nav-link" href="sobrenos.html">Sobre nós</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login.html">Pedidos online</a>
+                    <a class="nav-link" href="login.php">Pedidos online</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contato</a>
@@ -58,25 +58,25 @@
         <div class="row postagem2">
 
             <div class="col-sm-6">
-                <form id="contato">
+                <form id="contato" action="contato.php" method="POST">
                     <h1 style="color: black; margin-top: 30px; text-align:center;">Feedback</h1>
                     <div class="form-group">
                         <label for="exampleFormControlInput1"></label>
-                        <input type="email" class="form-control" id="email" placeholder="Seu email">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Seu email" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1"></label>
-                        <input type="text" class="form-control" id="contnome" placeholder="Seu nome">
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1"></label>
-                        <input type="tel" class="form-control" id="telefone" placeholder="Seu telefone">
+                        <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="Seu telefone" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1"></label>
-                        <textarea type="text" class="form-control" id="mensagem" rows="7" cols="30" placeholder="Escreva sua mensagem aqui!"></textarea>
+                        <textarea type="text" class="form-control" id="mensagem" name="mensagem" rows="7" cols="30" placeholder="Escreva sua mensagem aqui!" required></textarea>
                     </div>
-                    <button type="submit" name="Enviar" id="Enviar">Enviar</button>
+                    <button type="submit" name="Enviar" id="Enviar">Enviar</button>     
                 </form>
             </div>
             <div class="col-sm|md|lg|xl" id="foto">

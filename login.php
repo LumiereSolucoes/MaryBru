@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -10,8 +10,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <!--link jquery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <!--fonte letra menu-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
@@ -28,7 +26,7 @@
     <!--área menu-->
 
     <nav class="navbar navbar-expand-lg navbar fixed-top" style="background-color: #C71585;">
-        <a class="navbar-brand" href="index.html"> <img src="img/marybru_logo-removebg-preview.png" width="70" height="70"> </a>
+        <a class="navbar-brand" href="index.html" style="width: 55px;"> <img src="img/marybru_logo-removebg-preview.png" width="70" height="70" alt="Logo Marybru Doçuras"> </a>
         <a id="mb" class="navbar-brand" href="index.html">MaryBru Doçuras</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="material-icons">menu</span>
@@ -43,7 +41,7 @@
                     <a class="nav-link" href="sobrenos.html">Sobre nós</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login.html">Pedidos online</a>
+                    <a class="nav-link" href="#">Pedidos online</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contato.html">Contato</a>
@@ -51,44 +49,35 @@
             </ul>
             <!--whatsapp e instagram-->
 
-            <a href="https://web.whatsapp.com/send?phone=5511989453886" target="_blank" title="whatsapp ícones"> <img src="img/whatsapp.png" width="30" height="30" style="margin-top: 10px;"></a>
-            <a href="https://www.instagram.com/marybru.docuras/?__coig_restricted=1" title="instagram ícones"> <img src="img/instagram (2).png" width="30" height="30" style="margin-left: 15px; margin-top: 10px;"></a>
+            <a href="https://web.whatsapp.com/send?phone=5511989453886" target="_blank" title="whatsapp ícones"> <img src="img/whatsapp.png" width="30" height="30" style="margin-top: 10px;" alt="Whatsapp"></a>
+            <a href="https://www.instagram.com/marybru.docuras/?__coig_restricted=1" title="instagram ícones"> <img src="img/instagram (2).png" width="30" height="30" style="margin-left: 15px; margin-top: 10px;" alt="Instagram"></a>
         </div>
     </nav>
 
-            <!--área cadastro-->
-    <div class="container cadastro">
-        <form action="Cadastro.php" method="POST">
+            <!--área login-->
+    <div class="container login">
+        <form action="logar.php" method="POST">
             <br />
             <div class="imgcontainer">
                 <img src="img/usuario2.png" alt="Avatar" class="avatar">
-            </div>
-            <br />
-            <h2 id="titulo">Cadastre-se</h2><br />
-            <label for="uname"><b>Nome</b></label>
-            <br />
-            <input type="text" placeholder="Seu Nome" name="nome" required>
-            <br />
-
-            <label for="uname"><b>Contato</b></label>
-            <br />
-            <input type="text" placeholder="Seu número" name="telefone" required>
-            <br>
-            <label for="uname"><b>Email</b></label>
-            <br />
-            <input type="text" placeholder="Seu email" name="email" required>
-            <br />
-            <label for="psw"><b>Senha</b></label>
-            <br />
+            </div><br />
+            <h2 name="2"  id="titulo">Login</h2><br>
+            <label for="uname"><b>Email</b></label><br />
+            <input type="text" placeholder="Seu email" name="email" required><br />
+            <label for="psw" type="password"><b>Senha</b></label><br />
             <input type="password" placeholder="Sua senha" name="senha" required>
             <br />
-            <button id="cadastrobtn" type="submit">Cadastrar</button>
-            <button class="cancelbtn" type="reset">Cancelar</button>
-            <br /><a href="login.html">Voltar</a>
+            <button type="submit" name="Enviar" id="Enviar">Login</button>
+
+
+            <br />Não possui uma conta? <a href="cadastro.html">Cadastre-se</a>
+
 
         </form>
 
+
     </div>
+   
 
     <!--área rodapé-->
 
@@ -96,13 +85,11 @@
 
         <p id="confeitaria">MaryBru Doçuras feito com amor & chocolate!</p>
         <p>&copy; feito por Lumière Soluções</p>
-        <a rel="nofollow" target="_blank" href="https://web.whatsapp.com/send?phone=5511989453886" class="item-link"> <img src="img/whatsapp.png" width="30" height="30" style="margin-left: 10px;"></a>
-        <a href="https://www.instagram.com/marybru.docuras/?__coig_restricted=1" title="instagram ícones"> <img src="img/instagram (2).png" width="30" height="30" style="margin-left: 10px;"></a>
+        <a rel="nofollow" target="_blank" href="https://web.whatsapp.com/send?phone=5511989453886" class="item-link"> <img src="img/whatsapp.png" width="30" height="30" style="margin-left: 10px;" alt="Whatsapp"></a>
+        <a href="https://www.instagram.com/marybru.docuras/?__coig_restricted=1" title="instagram ícones"> <img src="img/instagram (2).png" width="30" height="30" style="margin-left: 10px;" alt="Instagram"></a>
 
     </footer>
-      
+
 
 </body>
 </html>
-
-  
